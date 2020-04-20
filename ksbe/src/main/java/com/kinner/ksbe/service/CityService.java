@@ -1,7 +1,6 @@
 package com.kinner.ksbe.service;
 
 import com.kinner.ksbe.domain.City;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 

@@ -1,0 +1,14 @@
+### 查询城市
+GET http://{{host}}/api/city/search?searchContents=温岭&pageNo=0&pageSize=10
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+
+### 新增城市
+POST http://{{host}}/api/city/add
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+//{"id":1, "provinceId":1, "cityName":"温岭", "description":"温岭是个好城市"}
+{"id":2, "provinceId":2, "cityName":"温州", "description":"温州是个好城市"}
