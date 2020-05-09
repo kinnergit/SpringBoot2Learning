@@ -1,0 +1,11 @@
+logging:
+  config: classpath:config/logback-spring.xml
+
+
+spring:
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: 127.0.0.1:9300
+      repositories:
+        enabled: true
