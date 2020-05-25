@@ -15,10 +15,10 @@
     <description>Demo project for Spring Boot With Elasticsearch</description>
 
     <properties>
-        <java.version>1.11</java.version>
-        <maven.compiler.source>1.11</maven.compiler.source>
-        <maven.compiler.target>1.11</maven.compiler.target>
-        <maven.compiler.compilerVersion>1.11</maven.compiler.compilerVersion>
+        <java.version>11</java.version>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.compilerVersion>11</maven.compiler.compilerVersion>
     </properties>
 
     <dependencies>
@@ -55,10 +55,7 @@
 
     <build>
         <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
+
         </plugins>
     </build>
 
